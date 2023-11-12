@@ -1,7 +1,7 @@
 {
   "name": "@matijaoe/eslint-config",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "packageManager": "pnpm@8.10.2",
   "description": "Matija's ESLint config",
   "author": "Matija Osrečki <github@matijao.com> (https://github.com/matijaoe)",
