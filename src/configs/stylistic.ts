@@ -24,7 +24,7 @@ export function stylistic(options: StylisticConfig = {}): ConfigItem[] {
 
         'style/array-bracket-newline': ['error', 'consistent'],
         'style/array-bracket-spacing': ['error', 'never'],
-        'style/arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+        'style/arrow-parens': ['error', 'always'],
         'style/arrow-spacing': ['error', { after: true, before: true }],
         'style/block-spacing': ['error', 'always'],
         'style/brace-style': ['error', '1tbs', { allowSingleLine: true }],

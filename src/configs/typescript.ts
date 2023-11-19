@@ -91,7 +91,7 @@ export function typescript(
         'no-redeclare': 'off',
         'no-use-before-define': 'off',
         'no-useless-constructor': 'off',
-        'ts/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
+        'ts/ban-ts-comment': 'off',
         'ts/ban-types': ['error', { types: { Function: false } }],
         'ts/consistent-type-definitions': ['error', 'type'],
         'ts/consistent-type-imports': ['error', { disallowTypeAnnotations: false, prefer: 'type-imports' }],
@@ -109,7 +109,7 @@ export function typescript(
         'ts/no-unused-vars': 'off',
         'ts/no-use-before-define': ['error', { classes: false, enums: false, functions: false, ignoreTypeReferences: true, typedefs: false, variables: true }],
         'ts/no-useless-constructor': 'off',
-        'ts/prefer-ts-expect-error': 'error',
+        'ts/prefer-ts-expect-error': 'off',
         'ts/triple-slash-reference': 'off',
         'ts/unified-signatures': 'off',
 
