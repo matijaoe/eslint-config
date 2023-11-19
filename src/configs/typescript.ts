@@ -52,12 +52,12 @@ export function typescript(
     {
       files: [
         GLOB_SRC,
-        ...componentExts.map(ext => `**/*.${ext}`),
+        ...componentExts.map((ext) => `**/*.${ext}`),
       ],
       languageOptions: {
         parser: parserTs,
         parserOptions: {
-          extraFileExtensions: componentExts.map(ext => `.${ext}`),
+          extraFileExtensions: componentExts.map((ext) => `.${ext}`),
           sourceType: 'module',
           ...tsconfigPath
             ? {

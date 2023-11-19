@@ -52,7 +52,7 @@ export function matijaoe(options: OptionsConfig & ConfigItem = {}, ...userConfig
     isInEditor = !!((process.env.VSCODE_PID || process.env.JETBRAINS_IDE) && !process.env.CI),
     overrides = {},
     typescript: enableTypeScript = isPackageExists('typescript'),
-    vue: enableVue = VuePackages.some(i => isPackageExists(i)),
+    vue: enableVue = VuePackages.some((i) => isPackageExists(i)),
   } = options
 
   // eslint-disable-next-line no-nested-ternary
